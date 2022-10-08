@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', 'MainController@index')->name('main');
-
 Route::get('products', 'ProductController@index')->name('products.index');
 
 Route::get('products/create', 'ProductController@create')->name('products.create');
